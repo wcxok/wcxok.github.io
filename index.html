@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/index.css">
+    <title>webrtc-downstream</title>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <form id="form" class="form-inline">
+                <div class="col-sm-3 col-md-2">
+                    <h4>测试下行用户数据</h4>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                    <select name="index" id="index" class="form-control">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                    <input class="form-control" id="appid" type="text" placeholder="AppId" required>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                    <input class="form-control" id="roomid" type="text" placeholder="RoomId" required>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                    <input class="form-control" id="uid" type="text" placeholder="Uid" required>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                    <button type="submit" id="join" class="btn btn-primary">join</button>
+                    <button type="button" id="leave" class="btn btn-default">leave</button>
+                </div>
+            </form>
+            <div id="tip"></div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="view">
+                    <div id="view-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="view">
+                    <div id="view-2"></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="view">
+                    <div id="view-3"></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="view">
+                    <div id="view-4"></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="view">
+                    <div id="view-5"></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="view">
+                    <div id="view-6"></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="view">
+                    <div id="view-7"></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="view">
+                    <div id="view-8"></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="view">
+                    <div id="view-9"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./static/jquery-3.4.1.min.js"></script>
+    <script src="./static/bootstrap.min.js"></script>
+    <script src="./static/ThunderBolt-Web-Sdk-2.6.0.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
